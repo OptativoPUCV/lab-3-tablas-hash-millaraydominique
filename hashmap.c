@@ -50,6 +50,9 @@ void insertMap(HashMap * map, char * key, void * value) {
             map->current = pos;
             return;
         }
+        if (is_equal(pair->key, key)) {
+            return;
+        }
         pos = (pos + 1) % map->capacity;
     } while (pos != start);
 }
