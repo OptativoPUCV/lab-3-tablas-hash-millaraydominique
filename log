@@ -32,3 +32,13 @@ Sat, Apr 19, 2025  1:42:15 PM:
  tests:  5|4
 total_score: 30/70
 3e4a47a
+Sat, Apr 19, 2025  2:00:04 PM: 
+ hashmap.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'enlarge':
+hashmap.c:70:9: error: expected ';' before '}' token
+         }
+         ^
+5f7c7cd
